@@ -15,9 +15,9 @@
       "img": "https://i.ibb.co/y5d65bx/eatsy.png",
       "desc": "An Authenticational web application using Database. User can see their ordered list, consider their valuable feedback at a time. User can manage also Food services. He can add food and remove food item.",
       "tools": "React, MongoDB, Express, Firebase Auth, Router, Heroku",
-      "githubClient": "https://github.com/hridoy1211/niche-product-fsports-bike-client-side",
-      "githubServer": "https://github.com/hridoy1211/niche-product-fsports-bike-server-side",
-      "live": "https://f-sport-bike-collections.firebaseapp.com/"
+      "githubClient": "https://github.com/hridoy1211/easty-food-delivery-client-side",
+      "githubServer": "https://github.com/hridoy1211/easty-food-delivery-server-side",
+      "live": "https://eatsy-food-delivey.web.app/"
     },
     {
       "id": 3,

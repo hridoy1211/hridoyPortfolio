@@ -20,24 +20,31 @@ function App() {
       <Router>
         <Header></Header>
         <Switch>
+
           <Route exact path='/'>
             <Home></Home>
           </Route>
+
           <Route exact path='/home'>
             <Home></Home>
           </Route>
+
           <Route exact path='/contact'>
             <Contact></Contact>
           </Route>
+          
           <Route exact path='/about'>
             <About></About>
           </Route>
+
           <Route exact path='/project'>
             <MyPorject></MyPorject>
           </Route>
+
           <Route exact path='/details/:projectId'>
             <ProjectDetails></ProjectDetails>
           </Route>
+          
         </Switch>
       </Router>
       
