@@ -9,11 +9,14 @@ import './App.css';
 import Home from './Components/Home/Home';
 import Contact from './Components/Contact/Contact';
 import Header from './Components/Header/Header';
+import About from './Components/About/About';
+import MyPorject from './Components/MyPorject/MyPorject';
+import ProjectDetails from './Components/ProjectDetails/ProjectDetails';
 
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <Router>
         <Header></Header>
         <Switch>
@@ -25,6 +28,15 @@ function App() {
           </Route>
           <Route exact path='/contact'>
             <Contact></Contact>
+          </Route>
+          <Route exact path='/about'>
+            <About></About>
+          </Route>
+          <Route exact path='/project'>
+            <MyPorject></MyPorject>
+          </Route>
+          <Route exact path='/details/:projectId'>
+            <ProjectDetails></ProjectDetails>
           </Route>
         </Switch>
       </Router>

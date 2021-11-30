@@ -1,8 +1,28 @@
+/* * {
+  background-color: #282c34;
+  color: aliceblue;
+} */
 .img {
-  border: 1px solid rgb(194, 194, 194);
-  box-shadow: 0 2px 10px rgba(65, 65, 65, 0.5);
+  border: 1px solid rgb(245, 245, 245);
+  box-shadow: 0 2px 13px rgba(65, 65, 65, 0.5);
   border-radius: 50%;
-  padding: 5px;
+  width: 400px;
+  padding: 8px;
+}
+.lineHeight {
+  line-height: 1px;
+}
+.button {
+  text-decoration: none;
+  color: #dc3545;
+  font-weight: 500;
+}
+.button:hover {
+  color: #fff;
+}
+
+.second-title {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* .img:hover {
